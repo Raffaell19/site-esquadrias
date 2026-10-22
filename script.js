@@ -1,5 +1,6 @@
 /**
- * EsquadriasPro - Interações da Landing Page
+ * Esquadrias de Ferro Canudense - Interações da Landing Page
+ * Serralheria, Estruturas Metálicas e Esquadrias de Alta Resistência
  * JavaScript Vanilla Puro, Leve e de Alta Performance
  */
 
@@ -103,10 +104,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const name = clientNameInput.value.trim();
     const location = clientLocationInput.value.trim();
 
-    let message = `Olá! Gostaria de um orçamento técnico de esquadrias para *${selectedService}*.`;
+    let message = `Olá Esquadrias de Ferro Canudense! Gostaria de um orçamento para *${selectedService}*.`;
 
     if (name) {
-      message = `Olá! Sou *${name}* e gostaria de uma proposta de esquadrias para *${selectedService}*.`;
+      message = `Olá Esquadrias de Ferro Canudense! Sou *${name}* e gostaria de uma proposta para *${selectedService}*.`;
     }
 
     if (location) {

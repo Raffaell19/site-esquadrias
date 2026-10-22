@@ -1,53 +1,50 @@
-# Planejamento: Landing Page de Alta Conversão para Empresa de Esquadrias (EsquadriasPro)
+# Planejamento: Landing Page de Alta Conversão para Esquadrias de Ferro Canudense
 
 ## 1. Visão Geral do Projeto
-Adaptação e evolução da arquitetura de landing page anterior, agora especializada para uma **Empresa de Esquadrias de Alumínio e Vidro de Alto Padrão (EsquadriasPro)**.
-O projeto combina estética arquitetônica de luxo, foco em engenharia de precisão e máxima conversão para WhatsApp e orçamentos técnicos com plantas em PDF.
+Adaptação e evolução da arquitetura de landing page especializada para a **Esquadrias de Ferro Canudense | Serralheria Pesada & Estruturas Metálicas**.
+O projeto combina estética industrial robusta, autoridade técnica em serralheria artesanal e pesada de ferro/aço, e máxima conversão para WhatsApp com envio de projetos e plantas técnicas.
 
-## 2. Decisões do Usuário (Socratic Gate)
-- **Paleta de Cores:** Preto Fosco / Grafite Industrial (`#0F172A`, `#1E293B`, `#334155`), Cinza Titânio/Aço (`#64748B`, `#94A3B8`), Branco Puro e Acento em Azul Cobalto Técnico (`#2563EB` / `#0284C7`).
-- **Marca:** EsquadriasPro | Esquadrias de Alumínio & Soluções em Vidro de Alto Padrão.
+## 2. Decisões do Usuário & Identidade Visual
+- **Logomarca:** `logo-canudense.png` (símbolo geométrico com o leão coroado da Canudense e tipografia industrial).
+- **Paleta de Cores Industrial:**
+  - Fundo & Superfícies: Preto Carbono (`#080A0D`), Grafite Escuro (`#0F1217`, `#181C24`) e Bordas de Aço (`#262C38`).
+  - Cores Primárias de Destaque: Amarelo Ouro Industrial (`#FFB800` e `#E5A500`) para CTAs, faixas de segurança e detalhes técnicos.
+  - Cores Neutras: Branco Puro (`#FFFFFF`) e Cinza Aço Estrutural (`#E2E8F0`, `#94A3B8`).
+- **Marca:** Esquadrias de Ferro Canudense | Serralheria de Precisão & Estruturas Metálicas.
 - **Linhas Principais de Destaque:**
-  1. Portas e Janelas de Grandes Vãos (Linhas Gold, Suprema e Minimalista Slim)
-  2. Fachadas Pele de Vidro / Structural Glazing para Residencial e Corporativo
-  3. Portas Pivotantes Imponentes com Fechaduras Digitais e Puxadores em Inox
-  4. Guarda-Corpos de Vidro Autoportante e Fechamento de Sacadas
-- **Conversão Principal:** Foco 100% em WhatsApp com triagem rápida por tipo de esquadria + botão de ligação rápida e opção para envio de projetos em PDF.
-- **Mídia:** Fotografia arquitetônica ultra-realista de mansão moderna com esquadrias pretas de vidro piso-teto, isolamento térmico e acústico, e detalhes dos perfis.
+  1. Portões Automáticos & Articulados (Basculantes e deslizantes em ferro reforçado)
+  2. Estruturas Metálicas & Mezaninos Industriais (Vigas I/U com cálculo estrutural)
+  3. Esquadrias e Caixilhos em Ferro Artesanal (Janelas e portas estilo industrial loft)
+  4. Grades, Guarda-Corpos & Fechamentos de Alta Segurança
+- **Conversão Principal:** Foco 100% no WhatsApp com triagem rápida por tipo de projeto de serralheria + canal de envio de plantas e DWG.
 
 ## 3. Estrutura de Seções
-1. **Top Announcement Bar:** Plantão técnico para arquitetos, construtores e proprietários + canal direto (11) 99999-9999.
-2. **Header Fixo:** Logotipo moderno com símbolo de esquadria/vão arquitetônico, navegação suave e CTA "Pedir Orçamento Técnico".
+1. **Top Announcement Bar:** Plantão de atendimento técnico de serralheria com botão de ligação e WhatsApp.
+2. **Header Fixo:** Logotipo oficial da Canudense (`logo-canudense.png`), navegação rápida e CTA "Solicitar Orçamento".
 3. **Hero Section:**
-   - Headline: *"Precisão em Alumínio. Luz e Sofisticação no Seu Projeto."*
-   - Subtítulo focado em grandes vãos, isolamento termoacústico e garantia de fábrica de 5 anos.
-   - Prova social: 4.9/5 estrelas (+350 obras residenciais e corporativas entregues).
-   - Visual: Mansão contemporânea com esquadrias pretas iluminadas e badges (*Linha Gold & Suprema*, *Vedação Acústica Premium*).
-4. **Barra de 4 Pilares de Engenharia:**
-   - Isolamento Termoacústico (Vidros laminados e duplos insulados)
-   - Pintura Eletrostática & Anodização (Resistência máxima contra maresia e sol)
-   - Fabricação Própria Sob Medida (Tolerância milimétrica)
-   - 5 Anos de Garantia e Pós-Venda Técnico
-5. **Grid de Produtos & Linhas:**
-   - Portas de Grandes Vãos (deslizamento suave sem esforço)
-   - Fachada Pele de Vidro / Glazing
-   - Portas Pivotantes de Entrada
-   - Guarda-Corpos e Coberturas de Vidro
-6. **Contadores de Credibilidade:**
-   - +15.000 m² de Esquadrias Instaladas
-   - +350 Obras Residenciais e Corporativas
-   - 100% dos Prazos de Obra Cumpridos
-   - 5 Anos de Garantia Contratual
-7. **Diferenciais Técnicos:**
-   - Por que o alumínio estrutural supera outros materiais
-   - Roldanas especiais com rolamentos de aço inox blindado
-   - Parceria direta com arquitetos e engenheiros com envio de DWG/BIM
-8. **Portfólio / Obras Entregues:**
-   - Residência Condomínio Tamboré
-   - Mansão Quinta da Baroneza
-   - Edifício Corporativo Berrini
-9. **Depoimentos de Arquitetos e Proprietários**
-10. **FAQ Técnico (Medidas, vidros, maresia, prazo de entrega)**
-11. **CTA Final com Envio de Projeto pelo WhatsApp**
-12. **Modal de Triagem com 1 Clique (Portas de Correr, Pele de Vidro, Pivotante, Acústica, Projeto Completo)**
-13. **Botão Flutuante de WhatsApp**
+   - Headline: *"Serralheria Pesada & Esquadrias de Ferro Sob Medida."*
+   - Subtítulo: *"Força, durabilidade e acabamento artesanal para residências, comércios e galpões industriais."*
+   - Badges de Autoridade: *Aço 100% Certificado Gerdau / CSN* e *Pintura Eletrostática & Fosfatização Anticorrosiva*.
+   - Prova social: 4.9/5 estrelas (+850 estruturas e portões entregues).
+4. **Barra de 4 Pilares de Engenharia & Serralheria:**
+   - Solda MIG/TIG Industrial (Fixação estrutural sem trincas ou porosidades)
+   - Tratamento Fosfatizante (Resistência extrema contra ferrugem e intempéries)
+   - Fabricação Sob Medida (Projetos milimétricos conforme projeto de arquitetura/engenharia)
+   - 5 Anos de Garantia Estrutural com assistência e suporte técnico
+5. **Grid de Serviços Especializados:**
+   - Portões Automáticos & Basculantes
+   - Estruturas Metálicas & Mezaninos
+   - Caixilhos & Portas de Ferro Estilo Loft
+   - Grades & Guarda-Corpos Reforçados
+6. **Métricas de Credibilidade:**
+   - +20 Anos de Tradição em Serralheria
+   - +850 Estruturas e Portões Instalados
+   - 100% Aço Certificado (ABNT)
+   - 5 Anos de Garantia Estrutural
+7. **Diferenciais Técnicos:** Soldas contínuas, materiais de alta espessura e acabamento fino lixado.
+8. **Portfólio de Obras e Projetos:** Portões residenciais, galpões comerciais e esquadrias de ferro estilo industrial.
+9. **Depoimentos de Engenheiros, Mestres de Obras e Proprietários**
+10. **FAQ Técnico (Espessuras, pintura anticorrosiva, automação e orçamentos)**
+11. **CTA Final com Envio de Projeto e Medidas pelo WhatsApp**
+12. **Modal de Triagem Especializado com 1 Clique (Portões, Mezaninos, Caixilhos de Ferro, Segurança)**
+13. **Botão Flutuante de WhatsApp com Pulso Amarelo Ouro**
