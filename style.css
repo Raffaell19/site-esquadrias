@@ -374,19 +374,47 @@ h1, h2, h3, h4, h5 {
   display: flex;
   align-items: center;
   gap: 12px;
+  text-decoration: none;
+  margin-right: 28px;
 }
 
-.brand-logo-img {
-  height: 48px;
-  width: auto;
-  max-width: 140px;
-  object-fit: contain;
-  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.4));
-  transition: transform var(--transition-fast);
+/* Recipiente Circular da Logomarca */
+.logo-circle-container {
+  width: 56px;
+  height: 56px;
+  min-width: 56px;
+  min-height: 56px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #060709;
+  border: 2px solid var(--primary);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25), 0 0 0 2px rgba(255, 184, 0, 0.2);
+  flex-shrink: 0;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  position: relative;
+  box-sizing: border-box;
 }
 
-.brand-logo:hover .brand-logo-img {
+.brand-logo:hover .logo-circle-container {
   transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35), 0 0 0 3px rgba(255, 184, 0, 0.35);
+}
+
+.logo-circle-container .brand-logo-img {
+  width: 86%;
+  height: 86%;
+  object-fit: contain;
+  object-position: center;
+  box-sizing: border-box;
+  transition: transform var(--transition-fast);
+  display: block;
+}
+
+.brand-logo:hover .logo-circle-container .brand-logo-img {
+  transform: scale(1.08);
 }
 
 .logo-icon-wrap {
@@ -412,27 +440,42 @@ h1, h2, h3, h4, h5 {
   transform: rotate(-4deg) scale(1.05);
 }
 
+/* Tipografia e Organização da Marca */
+.logo-text-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
+  white-space: nowrap;
+}
+
 .logo-title {
   font-family: var(--font-heading);
-  font-size: 1.375rem;
+  font-size: 1.25rem;
   font-weight: 800;
   color: var(--slate-900);
   letter-spacing: -0.02em;
-  display: block;
-  line-height: 1.1;
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  line-height: 1.15;
+  white-space: nowrap;
 }
 
 .logo-title strong {
-  color: var(--primary);
+  color: #B45309;
+  font-weight: 800;
 }
 
 .logo-subtitle {
-  font-size: 0.6875rem;
+  font-size: 0.625rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--slate-500);
-  font-weight: 600;
+  font-weight: 700;
   display: block;
+  line-height: 1;
+  white-space: nowrap;
 }
 
 .nav-list {
@@ -1451,6 +1494,37 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 60px;
 }
 
+.footer-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
+  margin-bottom: 6px;
+}
+
+.footer-logo .logo-circle-container {
+  width: 56px;
+  height: 56px;
+  min-width: 56px;
+  min-height: 56px;
+  background: #080A0D;
+  border: 2px solid var(--primary);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5), 0 0 0 2px rgba(255, 184, 0, 0.25);
+}
+
+.footer-logo .logo-title {
+  color: var(--white);
+  font-size: 1.25rem;
+}
+
+.footer-logo .logo-title strong {
+  color: var(--primary);
+}
+
+.footer-logo .logo-subtitle {
+  color: var(--slate-400);
+}
+
 .text-white { color: var(--white); }
 .text-muted { color: var(--slate-500); }
 
@@ -1886,18 +1960,14 @@ h1, h2, h3, h4, h5 {
     min-width: 0;
     max-width: calc(100% - 56px);
     gap: 8px;
+    margin-right: 0;
   }
 
-  .logo-icon-wrap {
-    width: 38px;
-    height: 38px;
-    min-width: 38px;
-    border-radius: 10px;
-  }
-
-  .logo-icon-wrap svg {
-    width: 20px;
-    height: 20px;
+  .logo-circle-container {
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    min-height: 44px;
   }
 
   .logo-text-wrap {
